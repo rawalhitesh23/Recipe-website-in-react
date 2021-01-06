@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@300;700&display=swap');
+
+.recipe {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(71, 71, 71);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+    min-width: 40%;
+    overflow: hidden;
+}
+
+.image {
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 20px rgb(71, 71, 71);
+}
+
+.calory {
+    font-family: 'Grandstander', cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.ingredient {
+    margin: 10px;
+    margin-left: 2rem;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 1000;
+}
